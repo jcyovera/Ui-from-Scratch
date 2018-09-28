@@ -18,6 +18,7 @@ And give all power & responsibility to students.
 ### Requirements
 * [Node.js](https://nodejs.org/) v8.11.4+ to run.
 * [Visual Studio Code](https://code.visualstudio.com/) Last version
+* [GIT](https://git-scm.com/) Last version
 * [Angular 6](https://angular.io)  and up
  ` npm install -g @angular/cli`
 #### In the process of completing test tasks we will learn:
