@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video API</title>
+</head>
+<body>
+<video id="autoplay" muted playsinline controls>
+  <source src="spill.mp4" type="video/mp4">
+  <source src="spill.ogg" type="video/ogg">
+  Your browser does not support the <code>video</code> element.
+</video>
+<button id="unmuteButton">UnMute</button>
+
+<script>
+  var isUnmuted=true;
+  document.getElementById('unmuteButton').addEventListener('click', function() {
+    isUnmuted=!isUnmuted;
+    document.getElementById('autoplay').muted = isUnmuted;
+    
+  });
+</script>
+<script>
+  document.getElementById('autoplay').play();
+</script>
+</body>
+</html>
